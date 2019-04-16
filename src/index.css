@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'displayregular';
+  src: url('static/fonts/sf-pro-display-regular.woff2') format('woff2'),
+    url('static/fonts/sf-pro-display-regular.woff') format('woff'),
+    url('static/fonts/sf-pro-display-regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'textregular';
+  src: url('static/fonts/sf-pro-text-regular.woff2') format('woff2'),
+    url('static/fonts/sf-pro-text-regular.woff') format('woff'),
+    url('static/fonts/sf-pro-text-regular.otf') format('opentype'),
+    url('static/fonts/sf-pro-text-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  color: #000;
+  font-size: 16px;
+  font-family: 'textregular', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
